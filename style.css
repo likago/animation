@@ -37,16 +37,16 @@
     }
 }
 .deer {
-    width: 350px;
-    height: 350px ;
+    width: 550px;
+    height: 650px ;
     position: absolute;
     left: -30px;
     bottom: -10px;
     animation-name: reindeer;
-    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-direction: alternate;
 }
 .deer img{
     width: 100%;
@@ -54,10 +54,10 @@
 }
 @keyframes reindeer {
     from {
-        left: -25px;
+        left: -150px;
     }
     to {
-        left:50px;
+        left:1900px;
     }
 }
 .elf {
